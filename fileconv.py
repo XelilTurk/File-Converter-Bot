@@ -343,7 +343,7 @@ def help(client: pyrogram.client.Client, message: pyrogram.types.messages_and_me
 
 @app.on_message(filters.command(['source']))
 def source(client: pyrogram.client.Client, message: pyrogram.types.messages_and_media.message.Message):
-    app.send_message(message.chat.id, "GITHUB - https://github.com/bipinkrish/File-Converter-Bot")
+    app.send_message(message.chat.id, "GITHUB - https://t.me/DTO41")
 
 
 @app.on_message(filters.command(["color"]))
